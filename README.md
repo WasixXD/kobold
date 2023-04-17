@@ -25,13 +25,13 @@ I could not find a tool for making repository presentation ( showing the charact
 It get the name and the repository name, and with the github api collect some fields to generate a video presentation
 
 # How to install 🚀
-Install with `cargo`!
+Install from source!
 ```
-$ cargo install kobold-tool
+$ git clone https://github.com/WasixXD/kobold.git
 ```
 # How to use 👷
 ```
-$ kobold-tool --user-name WasixXD --repo-name kobold --output main.mp4
+$ cargo run -- --user-name WasixXD --repo-name kobold --output main.mp4
 ```
 
 PS: kobolds go to war
